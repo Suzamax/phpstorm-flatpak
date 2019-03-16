@@ -1,0 +1,34 @@
+{
+  "app-id": "com.jetbrains.PhpStorm",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "1.4",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "phpstorm",
+  "finish-args": [
+    "--persist=.java",
+    "--share=ipc",
+    "--socket=x11",
+    "--share=network"
+  ],
+  "modules": [{
+    "name": "phpstorm",
+    "no-autogen": true,
+    "sources": [{
+      "type": "archive",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2018.3.5.tar.gz",
+      "sha256": "d8d39d3ddc2a62ddec326176e779e1e0d5d62ff2d058e28e12d3888e74119948"
+    },{
+      "type": "file",
+      "path": "phpstorm-Makefile",
+      "dest-filename": "Makefile"
+    },{
+      "type": "file",
+      "path": "com.jetbrains.PhpStorm.svg",
+      "dest-filename": "com.jetbrains.WebStorm.svg"
+    },{
+      "type": "file",
+      "path": "com.jetbrains.PhpStorm.desktop",
+      "dest-filename": "com.jetbrains.WebStorm.desktop"
+    }]
+  }]
+}

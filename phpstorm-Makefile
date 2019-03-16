@@ -1,0 +1,13 @@
+ICON_DIR = /app/share/icons/hicolor/scalable/apps
+DESKTOP_DIR = /app/share/applications
+
+all:
+	true
+
+install:
+	mkdir -p /app/PhpStorm /app/bin
+	cp -ra * /app/PhpStorm
+	ln -s /app/PhpStorm/bin/phpstorm.sh /app/bin/phpstorm
+	mkdir -p $(ICON_DIR) $(DESKTOP_DIR)
+	cp com.jetbrains.PhpStorm.desktop $(DESKTOP_DIR)
+	cp com.jetbrains.PhpStorm.svg $(ICON_DIR)
