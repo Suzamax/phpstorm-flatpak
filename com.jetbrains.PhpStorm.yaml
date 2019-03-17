@@ -17,13 +17,6 @@ finish-args:
   - --talk-name=org.freedesktop.secrets
 modules:
   - shared-modules/gtk2/gtk2.json
-
-  - name: nodejs
-    sources:
-      - type: archive
-        url: https://nodejs.org/dist/v10.15.0/node-v10.15.0.tar.xz
-        sha256: 797ab34c74b83b21b7d6ea261b5ca235d34c61a7da5aebb32459a963097ede3e
-
   - name: PhpStorm
     buildsystem: simple
     build-commands:
