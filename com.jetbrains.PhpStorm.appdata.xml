@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.jetbrains.PhpStorm</id>
+  <metadata_license>CC-BY-SA</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <name>PhpStorm</name>
+  <summary>Lightning-smart PHP IDE</summary>
+  <description>
+    <p>PhpStorm is perfect for working with Symfony, Drupal, WordPress, Zend Framework, Laravel, Magento, Joomla!, CakePHP, Yii, and other frameworks.
+    </p>
+    <p>The editor actually 'gets' your code and deeply understands its structure, supporting all the PHP language features for modern and legacy projects. It provides the best code completion, refactorings, on-the-fly error prevention, and more.
+    </p>
+    <p>Make the most of the cutting edge front-end technologies, such as HTML5, CSS, Sass, Less, Stylus, CoffeeScript, TypeScript, Emmet, and JavaScript, with refactorings, debugging, and unit testing available. See the changes instantly in the browser thanks to Live Edit.
+    </p>
+    <p>Perform many routine tasks right from the IDE, thanks to the Version Control Systems integration, support for remote deployment, databases/SQL, command-line tools, Docker, Composer, REST Client, and many other tools.
+    </p>
+    <p>All the features in WebStorm are included into PhpStorm, with full-fledged support for PHP and Databases/SQL support added on top.
+    </p>
+    <p>PhpStorm is available for a free 30-day evaluation. Monthly and yearly subscription options are available for
+      companies and individual users.
+    </p>
+    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.</p>
+  </description>
+  <url type="bugtracker">https://youtrack.jetbrains.com/</url>
+  <url type="help">https://www.jetbrains.com/help/phpstorm/</url>
+  <url type="homepage">http://www.jetbrains.com/phpstorm/</url>
+  <launchable type="desktop-id">com.jetbrains.PhpStorm.desktop</launchable>
+  <releases>
+    <release version="2018.3.5" date="2019-03-07">
+      <description>
+        <ul>
+          <li>Fixed: Updating plugins in an offline environment no longer works with new marketplace and custom plugin repository</li>
+          <li>Fixed: Apparent off-by-one displaying DATE datatype</li>
+          <li>Fixed: Color Scheme reverts to Darcula from *custom* light color theme after restart if IDE theme is Darcula</li>
+          <li>Fixed: Angular template files are not recognized if “@angular/core” is not a direct dependency</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <developer_name>JetBrains</developer_name>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://www.jetbrains.com/phpstorm/img/screenshots/phpstorm-main.png</image>
+    </screenshot>
+  </screenshots>
+  <update_contact>ratiosu.cct_AT_gmail.com</update_contact>
+  <content_rating type="oars-1.1" />
+</component>

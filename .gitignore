@@ -1,4 +1,13 @@
-app
-repo
+#
+# Excludes
+.flatpak-builder/
+.idea/
+build/
+
 *.flatpak
-.flatpak-builder
+.DS_Store
+Thumbs.db
+*.iml
+
+
+# Includes
